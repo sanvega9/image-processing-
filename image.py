@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt 
 #Load the image 
-kpop = cv2.imread('./Kpop_Faces/4minute/hyuna/95790_FBac.jpg')
+kpop = cv2.imread('./4minute/hyuna/95790_FBac.jpg')
 image_rgb = cv2.cvtColor(kpop,cv2.COLOR_BGR2RGB)
 #DEFINE THE SCALE FACTOR 
 scale_factors = 3.0
